@@ -7,8 +7,8 @@
 #ifdef _WINDOWS
 #include <WinSock2.h>
 
-#ifndef _reliable_acceptorimlp_h
-#define _reliable_acceptorimlp_h
+#ifndef _ipv4_tcp_acceptorimlp_h
+#define _ipv4_tcp_acceptorimlp_h
 
 #include "../../../windows/handle.h"
 #include "../../../typedef.h"
@@ -31,6 +31,6 @@ struct acceptorimlp : public handle{
 } /* namespace remoteq */
 } /* namespace Fossilizid */
 
-#endif //_reliable_acceptorimlp_h
+#endif //_ipv4_tcp_acceptorimlp_h
 
 #endif //_WINDOWS

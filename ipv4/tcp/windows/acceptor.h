@@ -11,7 +11,7 @@
 
 namespace Fossilizid{
 namespace remoteq{
-
+namespace ipv4{
 namespace tcp{
 /*
  * create a ACCEPTOR
@@ -24,7 +24,7 @@ ACCEPTOR acceptor(QUEUE que, ENDPOINT ep);
 CHANNEL accept(ACCEPTOR ap);
 
 } /* namespace tcp */
-
+} /* namespace ipv4 */
 } /* namespace remoteq */
 } /* namespace Fossilizid */
 
